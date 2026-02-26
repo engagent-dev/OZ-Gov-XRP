@@ -5,7 +5,7 @@ edition = "2021"
 description = "OpenZeppelin-style Governor + Timelock DAO for XRPL WASM smart contracts"
 
 [lib]
-crate-type = ["rlib"]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 xrpl-wasm-stdlib = "0.7"
